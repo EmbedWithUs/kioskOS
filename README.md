@@ -25,7 +25,10 @@ network={
 ```
 - Reboot `sudo reboot`
 
-## Install OS Depedencies
+## TEMP: Install OS Depedencies
+
+- Run install.sh script. These will eventually be baked into the os when you download the image.
+- Move startkiosk.sh scripts into appropriate places.
 
 Current Dependencies
  - On Raspian Jessie Lite
