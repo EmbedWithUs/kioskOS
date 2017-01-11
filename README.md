@@ -1,5 +1,5 @@
-# mirrorOS
-Interactive Mirror operating system and settings
+# kioskOS
+A minimal kiosk os for the raspberry pi
 
 # To Install
 
