@@ -8,10 +8,10 @@ sudo apt-get dist-upgrade
 sudo apt-get install midori matchbox-window-manager x11-xserver-utils unclutter xinit fbi
 
 # Install NodeJS
-## For ARMv6 Install via apt-get
+## For ARMv6 (PI1,PI0)
 sudo apt-get install nodejs npm
 
-## For newer hardware
+## For newer hardware (PI2, PI3)
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt install nodejs
 
