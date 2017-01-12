@@ -8,8 +8,11 @@ sudo apt-get dist-upgrade
 sudo apt-get install midori matchbox-window-manager x11-xserver-utils unclutter xinit fbi
 
 # Install NodeJS
-wget http://node-arm.herokuapp.com/node_latest_armhf.deb
-sudo dpkg -i node_latest_armhf.deb
+# For ARMv6 Install via apt-get
+sudo apt-get install nodejs
+# For newer hardware
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt install nodejs
 
 # Install Node Dependencies
 npm install -g nodemon # Persistant watching of server and restart on failure.
