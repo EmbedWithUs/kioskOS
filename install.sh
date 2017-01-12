@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 
 # Install operating system dependencies
-sudo apt-get install midori matchbox-window-manager x11-xserver-utils unclutter xinit fbi
+sudo apt-get install midori matchbox-window-manager x11-xserver-utils unclutter xinit fbi xorg-x11-server xorg
 
 # Install NodeJS
 ## For ARMv6 (PI1,PI0)
